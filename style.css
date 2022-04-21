@@ -43,6 +43,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #787785;
+  font-weight: bolder;
 }
 
 #welcome-section h1 {
@@ -54,6 +56,54 @@ body {
 #welcome-section h2 {
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+#projects {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects .top {
+  display: flex;
+  justify-content: center;
+}
+
+#projects .project-tile {
+  width: 25%;
+  height: 40vh;
+  border-radius: 10px;
+  background-color: #fdebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #787785;
+  margin: 10px;
+}
+
+#projects .project-tile h2 {
+  line-height: 2;
+}
+
+#projects .project-tile p {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.project-tile a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-tile img {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #787785;
 }
 
 footer {
@@ -90,7 +140,7 @@ footer #profile-link {
   font-weight: bolder;
 }
 @media only screen and (max-width: 768px) {
-  body {
-    font-size: 90%;
+  #welcome-section {
+    font-size: 20%;
   }
 }
