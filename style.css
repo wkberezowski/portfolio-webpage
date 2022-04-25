@@ -140,7 +140,24 @@ footer #profile-link {
   font-weight: bolder;
 }
 @media screen and (max-width: 600px) {
-  #welcome-section {
-    font-size: 1px !important;
+  #welcome-section h1,
+  h2 {
+    font-size: 150% !important;
+  }
+
+  #projects .top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #projects .project-tile {
+    width: 50%;
+    height: fit-content;
+  }
+
+  #projects .project-tile h2,
+  p {
+    font-size: 80% !important;
   }
 }
